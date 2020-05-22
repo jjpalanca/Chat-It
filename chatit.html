@@ -1,0 +1,38 @@
+<!--
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 8
+    Filename: chatit.html
+    Description: A webpage that gets the submitted data from the user and then
+                post it as a content of that same page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Chat-it</title>
+        <script type="text/javascript" src="chatit.js"></script>
+        <link rel="stylesheet" href="chatit.css">
+    </head>
+    <body>
+        <h1>Chat-It</h1>
+        <div id="content">
+            <div id="chatbox">
+
+            </div>
+            <div id="input">
+                <div>
+                    <label>Name:  <input type="text" id="name"/></label>
+                </div>
+                <div>
+                    <label>Comment: <textarea id="comment"></textarea></label>
+                </div>
+
+                <div>
+                    <button id="submit">submit</button>
+                    <span id="success"></span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

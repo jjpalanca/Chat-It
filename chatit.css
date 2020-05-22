@@ -1,0 +1,64 @@
+/*
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 8
+    Filename: chatit.css
+    Description: The css file for the chatit.html
+*/
+
+body{
+    color: white;
+    background-color: #097EE5;
+}
+
+textarea, input{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family:monospace;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+div{
+    margin: 5px;
+}
+
+h4, p{
+    margin: 0px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#content{
+    width: 500px;
+}
+
+#input{
+    text-align: left;
+}
+
+#input, #content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chatbox{
+    color: black;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 500px;
+    overflow: auto;
+}
+
+#chatcomment{
+    border: 1px blue solid;
+    border-radius: 5px;
+    background-color: white;
+    padding: 4px;
+}
